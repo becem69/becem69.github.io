@@ -7,7 +7,7 @@ repo: "https://github.com/becem69/olive-factory-application"
 featured: false
 perms: "rw-r--r--"
 risk: "low"
-excerpt: "Full-stack inventory platform with real-time stock tracking, financial dashboards, and container logistics reconciliation — sold to a commercial client."
+excerpt: "Full-stack inventory platform with real-time stock tracking, financial dashboards, and container logistics reconciliation sold to a commercial client."
 order: 5
 ---
 
