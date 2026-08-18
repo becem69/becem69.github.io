@@ -1,0 +1,31 @@
+title: Bacem El Manai
+description: "Cybersecurity-focused developer — reverse engineering, secure systems, and full-stack builds."
+email: becemmanai310@gmail.com
+github_username: becem69
+github_username_2: BacemElManai
+linkedin_username: bacem-el-manai929623343
+location: "Ben Arous, Tunisia"
+
+baseurl: ""
+url: "https://becem69.github.io"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

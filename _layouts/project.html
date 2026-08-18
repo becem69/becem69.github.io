@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="project-detail">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}#projects" class="back-link">&larr; back to index</a>
+
+    <div class="detail-head">
+      <span class="detail-year">{{ page.year }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="detail-tagline">{{ page.tagline }}</p>
+    </div>
+
+    <div class="detail-meta">
+      {% if page.stack %}
+      <div class="meta-block">
+        <span class="meta-label">stack</span>
+        <div class="chip-row">{% for t in page.stack %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+      </div>
+      {% endif %}
+      {% if page.repo %}
+      <div class="meta-block">
+        <span class="meta-label">source</span>
+        <a href="{{ page.repo }}" target="_blank" rel="noopener" class="repo-link">{{ page.repo | remove: "https://" }} &rarr;</a>
+      </div>
+      {% endif %}
+      {% if page.live %}
+      <div class="meta-block">
+        <span class="meta-label">live</span>
+        <a href="{{ page.live }}" target="_blank" rel="noopener" class="repo-link">{{ page.live | remove: "https://" }} &rarr;</a>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="project-body">
+      {{ content }}
+    </div>
+  </div>
+</article>

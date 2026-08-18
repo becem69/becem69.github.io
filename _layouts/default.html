@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+</head>
+<body>
+  <div class="scan-overlay" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <img src="{{ '/assets/favicon.svg' | relative_url }}" alt="" class="nav-icon">
+      <span class="prompt">root@bacem</span><span class="cursor">:~$</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}#projects"><span class="nav-tag">01</span>projects</a>
+      <a href="{{ '/' | relative_url }}#experience"><span class="nav-tag">02</span>experience</a>
+      <a href="{{ '/' | relative_url }}#lab"><span class="nav-tag">03</span>lab</a>
+      <a href="{{ '/' | relative_url }}#contact"><span class="nav-tag">04</span>contact</a>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-hash">SHA256 verified &middot; {{ 'now' | date: "%Y" }} &middot; built with Jekyll on GitHub Pages</p>
+      <div class="footer-links">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">github.com/{{ site.github_username }}</a>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">linkedin</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
