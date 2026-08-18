@@ -7,7 +7,7 @@ repo: "https://github.com/becem69/PORTVIGIL"
 featured: true
 perms: "rwxr-xr-x"
 risk: "medium"
-excerpt: "CLI port scanner hitting 1,000+ ports/sec with service fingerprinting — 50+ stars, 5 community contributors."
+excerpt: "CLI port scanner hitting 1,000+ ports/sec with service fingerprinting, 5 community contributors."
 order: 4
 ---
 
