@@ -2,7 +2,7 @@
 title: "cook.bin"
 tagline: "ELF binary reverse engineering challenge"
 year: "2026"
-stack: [Ghidra, objdump, Python, XOR]
+stack: [Ghidra, objdump, c++, XOR]
 repo: "https://github.com/becem69/Ramadhan-CTF-cook-task-writeup"
 featured: false
 perms: "r-xr-x---"
