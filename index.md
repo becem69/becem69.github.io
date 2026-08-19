@@ -137,7 +137,7 @@ layout: default
   </div>
 </section>
 
-<section id="certs" class="certs">
+<section id="cert" class="cert">
   <div class="container">
     <h2 class="section-title"><span class="section-tag">04</span>Certifications</h2>
     <div class="cert-row">
