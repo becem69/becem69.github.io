@@ -141,14 +141,16 @@ layout: default
   <div class="container">
     <h2 class="section-title"><span class="section-tag">04</span>Certifications</h2>
     <div class="cert-row">
-      <span class="cert-chip">Linux Foundation, OpenTofu (LFEL1009)</span>
-      <span class="cert-chip">Linux Foundation, Cybersecurity Essentials (LFC108)</span>
-      <span class="cert-chip">PentesterLab, Recon</span>
-      <span class="cert-chip">TCM Security, Linux 100 &amp; Programming 100</span>
-      <span class="cert-chip">Cisco, Intro to Cybersecurity</span>
-      <span class="cert-chip">freeCodeCamp, Python Developer (300h)</span>
-      <span class="cert-chip">freeCodeCamp, Responsive Web Design (300h)</span>
-      <span class="cert-chip">Cybrary, OSINT</span>
+      <span class="cert-chip">Intro to AI and Gen AI for Nomu AI, Ghurair TechUp Explorer (Udacity) May 2026</span>
+      <span class="cert-chip">Python Developer Certification, freeCodeCamp (300h) December 2025</span>
+      <span class="cert-chip">Getting Started with OpenTofu (LFEL1009), Linux Foundation December 2025</span>
+      <span class="cert-chip">Recon Certificate of Completion, PentesterLab November 2025</span>
+      <span class="cert-chip">OSINT, Cybrary October 2025</span>
+      <span class="cert-chip">Programming 100: Fundamentals, TCM Security October 2025</span>
+      <span class="cert-chip">Cybersecurity Essentials (LFC108), Linux Foundation October 2025</span>
+      <span class="cert-chip">Introduction to Cybersecurity, Cisco Networking Academy October 2025</span>
+      <span class="cert-chip">Linux 100: Fundamentals, TCM Security September 2025</span>
+      <span class="cert-chip">Responsive Web Design Developer Certification, freeCodeCamp (300h) April 2025</span>
     </div>
   </div>
 </section>
