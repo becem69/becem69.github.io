@@ -15,9 +15,9 @@ A multi-language software composition analysis platform spanning **Go, Rust, and
 
 ## What it does
 
-- **Go orchestrator** — parses `package.json` / `package-lock.json` (v1, v2/v3 formats), builds a dependency graph with blast-radius and depth analysis, and queries the OSV vulnerability database with batched requests, retry/backoff, and CVE enrichment.
-- **Rust typosquat detector** — Levenshtein distance + Jaro-Winkler phonetic similarity + Unicode homograph normalization against popular npm packages.
-- **Rust secret scanner** — regex signatures (AWS/GitHub/Stripe keys, JWTs, private keys) combined with Shannon entropy analysis, scanning both the working tree and full Git history via `libgit2`, with redaction enforced at the protobuf schema level.
+- **Go orchestrator** parses `package.json` / `package-lock.json` (v1, v2/v3 formats), builds a dependency graph with blast-radius and depth analysis, and queries the OSV vulnerability database with batched requests, retry/backoff, and CVE enrichment.
+- **Rust typosquat detector** Levenshtein distance + Jaro-Winkler phonetic similarity + Unicode homograph normalization against popular npm packages.
+- **Rust secret scanner** regex signatures (AWS/GitHub/Stripe keys, JWTs, private keys) combined with Shannon entropy analysis, scanning both the working tree and full Git history via `libgit2`, with redaction enforced at the protobuf schema level.
 - **C++ CI/CD analyzer** uses RapidYAML to detect GitHub Actions vulnerabilities: curl-pipe-to-shell execution, unpinned action references, and `pull_request_target` privilege escalation.
 
 ## Deployment
