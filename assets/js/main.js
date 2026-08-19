@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // typewriter role rotation
+  // terminal-style typewriter role rotation
   var target = document.querySelector('.type-target');
   if (target && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var roles = ['Cybersecurity Developer', 'Reverse Engineer', 'Secure Software Builder', 'CTF Player'];
