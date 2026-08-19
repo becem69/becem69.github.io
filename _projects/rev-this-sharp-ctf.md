@@ -6,7 +6,7 @@ stack: [".NET 6", "C#", Python, "SHA-256", XOR]
 repo: "https://github.com/becem69/Ramadhan-CTF-rev-this-sharp-challenge-writeup"
 featured: false
 perms: "r-xr-x---"
-risk: "medium"
+risk: "high"
 excerpt: "Hidden .NET assembly extracted from a self-contained Linux ELF, XOR key recovered from metadata streams. Author write-up for Ramadhan CTF (ISET'COM)."
 order: 9
 ---
