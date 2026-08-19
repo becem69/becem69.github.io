@@ -7,7 +7,7 @@ repo: "https://github.com/becem69/VPN-server-config"
 featured: false
 perms: "rw-------"
 risk: "medium"
-excerpt: "End-to-end WireGuard VPN with stealth UDP/53 config, NAT traversal, and traffic masquerading — optimized for offensive security use cases."
+excerpt: "End-to-end WireGuard VPN with stealth UDP/53 config, NAT traversal, and traffic masquerading optimized for offensive security use cases."
 order: 6
 ---
 
