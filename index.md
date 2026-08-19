@@ -20,7 +20,7 @@ layout: default
       <a href="/assets/Bacem_El_Manai_CV.pdf" class="btn btn-ghost" download>Download CV</a>
     </div>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num">7+</span><span class="stat-label">shipped projects</span></div>
+      <div class="stat"><span class="stat-num">9+</span><span class="stat-label">shipped projects</span></div>
       <div class="stat"><span class="stat-num">15+</span><span class="stat-label">pentests run</span></div>
       <div class="stat"><span class="stat-num">8</span><span class="stat-label">malware challenges cleared</span></div>
       <div class="stat"><span class="stat-num">2024</span><span class="stat-label">CTF player since</span></div>
