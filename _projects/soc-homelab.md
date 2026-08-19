@@ -7,7 +7,7 @@ repo: "https://github.com/becem69/soc-homelab-wazuh"
 featured: true
 perms: "rw-r--r--"
 risk: "medium"
-excerpt: "Full SOC detection pipeline — Wazuh SIEM/XDR, Suricata IDS, and a deliberately vulnerable target, all containerized to fit constrained hardware."
+excerpt: "Full SOC detection pipeline Wazuh SIEM/XDR, Suricata IDS, and a deliberately vulnerable target, all containerized to fit constrained hardware."
 order: 2
 ---
 
