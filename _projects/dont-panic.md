@@ -6,7 +6,7 @@ stack: [objdump, Python, RC4, XOR, ELF]
 repo: "https://github.com/becem69/don-t-panic-writeup"
 featured: false
 perms: "r-xr-x---"
-risk: "medium"
+risk: "high"
 excerpt: "Mid-hard RE challenge: locate an RC4 KSA/PRGA in a stripped binary, decode a 9-byte XOR-obfuscated key from .rodata, and decrypt the 30-byte flag."
 order: 15
 ---
